@@ -32,6 +32,32 @@ body {
   border-top: 1px solid #e5e5e5;
 }
 
+/* Customized styles */
+.row.login {
+  background: #ffffff;
+  padding: 30px 10px;
+  box-shadow: 0 0 5px #000000;
+  margin: 0 5px;
+}
+.row.login h2.page-header, .row.login label {
+  color: #2B3E50;
+}
+.row.login label {
+  font-size: 15px;
+}
+.nav-pills li a {
+  text-transform: uppercase;
+  border: 1px solid #00A2DB;
+  margin-right: 2px;
+  transition: all 1s;
+}
+.nav-pills li a:hover {
+  background: #00A2DB;
+  color: #ffffff;
+}
+footer.footer p {
+  color: #00A2DB;
+}
 /* Customize container */
 @media (min-width: 768px) {
   .container {
@@ -64,6 +90,7 @@ a.thelogo {
   width: 100%;
   display: block;
   text-align: center;
+  box-shadow: 0 0 5px #e5e5e5;
 }
 
 /* Responsive: Portrait tablets and up */

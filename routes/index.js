@@ -8,7 +8,7 @@ router.get('/', ensureAuthenticated, function(req, res){
 
 // Authentication and Authorization Middleware
 function ensureAuthenticated(req, res, next){
-	if(req.session && req.session.user === "amy" && req.session.admin){
+	if(req.session && req.session.user === "test" && req.session.admin){
 		return next();
 	} else {
 		//req.flash('error_msg','You are not logged in');

@@ -49,11 +49,5 @@ app.use(function (req, res, next) {
 app.use('/', routes);
 app.use('/users', users);
 
-// Get content endpoint
-/*
-app.get('/content', auth, function (req, res) {
-    res.send("You can only see this after you've logged in.");
-});
-*/
 app.listen(23572);
 console.log("app running at http://localhost:23572");

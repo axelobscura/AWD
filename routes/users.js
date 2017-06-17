@@ -58,8 +58,8 @@ router.post('/register', function(req, res){
 router.post('/login', function (req, res) {
   if (!req.body.username || !req.body.password) {
     res.redirect('/users/login');
-  } else if(req.body.username === "amy" || req.body.password === "amyspassword") {
-    req.session.user = "amy";
+  } else if(req.body.username === "test" || req.body.password === "test") {
+    req.session.user = "test";
     req.session.admin = true;
     res.redirect('/');
   }

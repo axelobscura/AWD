@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>http://localhost:23572/</loc>
+   </url>
+   <url>
+      <loc>http://localhost:23572/users/login</loc>
+   </url>
+   <url>
+      <loc>http://localhost:23572/users/register</loc>
+   </url>
+   <url>
+      <loc>http://localhost:23572/users/logout</loc>
+   </url>
+</urlset>
